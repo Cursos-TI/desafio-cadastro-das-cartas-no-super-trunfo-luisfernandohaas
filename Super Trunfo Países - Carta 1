@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+// Desafio Super Trunfo - Países
+// Tema 1 - Cadastro das Cartas
+// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de Países.
+// Neste projeto desenvolvido busquei deixar o mais simplificado e de fácil entendimento possível a leitura. 
+// Teste Luís Fernando Lawall Haas.
+
+int main(){
+char nome[50];
+char código[50];
+float área;
+int população;
+float PIB;
+int número;
+
+printf("Nome do país: \n");
+scanf("%s" , &nome);
+
+printf("Código da carta: \n");
+scanf("%s" , &código);
+
+printf("Área em km²: \n");
+scanf("%f" , &área);
+
+printf("Numero de população: \n");
+scanf("%d" , &população);
+
+printf("Valor do PIB: \n");
+scanf("%f" , &PIB);
+
+printf("Número de pontos turísticos: \n");
+scanf("%d" , &número);
+
+printf("PAÍS: %s\n" , nome);
+printf("CÓDIGO: %s\n" , código);
+printf("ÁREA EM KM²: %f\n" , área);
+printf("POPULAÇÃO(milhões): %d\n" , população);
+printf("PIB: %f\n" , PIB);
+printf("PONTOS TURÍSTICOS: %d" , número);
+
+return 0;
+
+}
+
+
+
+
